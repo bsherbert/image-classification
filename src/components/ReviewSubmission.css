@@ -1,0 +1,77 @@
+.minirow{
+    width: 168px;
+    height: 6px;
+}
+
+.miniimage{
+    height: 168px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.miniimage-box{
+    display: flex;
+    justify-content: center;
+}
+
+.label{
+    height: 20px;
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.delete{
+    height: 20px;
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.approve{
+    height: 20px;
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.labelValue{
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.idValue{
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.imageControls{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#submission-screen{
+   min-height: 63.15vh; 
+}
+
+.submission-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#submit-button{
+    margin-bottom: 20px;
+}
+
+#back-button{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 150px;
+    margin: auto;
+}
+
+.imageSet{
+    margin-bottom: 20px;
+}

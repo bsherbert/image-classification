@@ -1,0 +1,26 @@
+  .pixel{
+      float: left;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 13px;
+      height: 16px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-left: 0px;
+      padding: 0;
+      text-align: center;
+      width: 16px;
+      box-shadow: 0px 1px 2px black;
+  }
+  .pixel:focus{
+    outline: none;
+  }
+  .empty-pixel {
+      background: #deecf7;
+      border: 1px solid #becbd6;
+    }
+  .used-pixel {
+    background: #4185b9;
+      border: 1px solid #becbd6;
+    }

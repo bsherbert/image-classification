@@ -1,0 +1,26 @@
+  .minipixel{
+      float: left;
+      font-size: 8px;
+      font-weight: bold;
+      line-height: 6px;
+      height: 6px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      margin-left: 0px;
+      padding: 0;
+      text-align: center;
+      width: 6px;
+      box-shadow: 0px 1px 2px black;
+  }
+  .minipixel:focus{
+    outline: none;
+  }
+  .empty-minipixel {
+      background: #deecf7;
+      border: 1px solid #becbd6;
+    }
+  .used-minipixel {
+    background: #4185b9;
+      border: 1px solid #becbd6;
+    }

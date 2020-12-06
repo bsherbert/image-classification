@@ -1,0 +1,209 @@
+@keyframes correct{
+    0%{background-color: white;}
+    50%{background-color: rgb(116, 238, 116);}
+    100%{background-color: white;}
+}
+
+@keyframes incorrect{
+    0%{background-color: white;}
+    50%{background-color: rgb(223, 126, 126);}
+    100%{background-color: white;}    
+}
+
+.content{
+    min-height: 63.15vh;
+}
+
+.buttons{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.row{
+    margin: auto;
+    width: 448px;
+    background: #ccc;
+    height: 16px;
+}
+
+.game-container, .game-correct, .game-incorrect{
+    width: 70%;
+    border: 8px groove steelblue;
+    padding: 15px;
+    padding-top: 40px;
+    min-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 10px black;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.game-correct{
+    animation-name: correct;
+    animation-duration: .5s;
+}
+
+.game-incorrect{
+    animation-name: incorrect;
+    animation-duration: .5s;
+}
+
+
+.game-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+tr{
+    width: 200px;
+}
+
+th{
+    width: 50px;
+}
+
+td{
+    width: 60px;
+}
+
+.start-screen, .game-display, #loading-notice{
+    width: 50%;
+}
+
+.image{
+    width: 50%;
+    margin-left: 100px;
+}
+
+h3{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    border-bottom: 2px solid black;    
+    margin-bottom: 30px;
+}
+
+.clear-button, .score{
+    margin: 20px 0px;
+}
+
+h1{
+    text-shadow: -1px 1px 1px black;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.footer{
+    margin-top: 50px;
+    color: rgb(212, 212, 212);
+    background-color: #333333;
+}
+
+.top-footer{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.bottom-footer p{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.bottom-footer img{
+    width: 35px;
+}
+
+
+.imageSet{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.imageControls{
+    margin-top: 30px;
+}
+
+.label{
+    font-size: 12px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.left-button, .right-button{
+    padding: 3px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.approve2, .delete2{
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+}
+
+.miniimage-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    margin: 10px;
+}

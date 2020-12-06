@@ -1,0 +1,41 @@
+.heatpixel{
+    float: left;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 6px;
+    height: 6px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    text-align: center;
+    width: 6px;
+}
+.heatpixel:focus{
+  outline: none;
+}
+.zero-heatpixel {
+    background: #deecf7;
+    border: 1px solid #becbd6;
+  }
+  .one-heatpixel {
+    background: lightyellow;
+    border: 1px solid #becbd6;
+  }
+  .two-heatpixel {
+    background: yellow;
+    border: 1px solid #becbd6;
+  }
+  .three-heatpixel {
+    background: orange;
+    border: 1px solid #becbd6;
+  }
+  .four-heatpixel {
+    background: orangered;
+    border: 1px solid #becbd6;
+  }
+  .five-heatpixel {
+    background: crimson;
+    border: 1px solid #becbd6;
+  }
